@@ -1,0 +1,31 @@
+.con{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+	}
+
+.con2{
+	display: flex;
+	flex-wrap: wrap;
+	height: 30vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.con3 .link{
+	display: flex;
+	flex-wrap: wrap;
+	height: 40vh;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.con1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

@@ -1,0 +1,32 @@
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+   width: calc(49% - 2rem);
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cell {
+   width: calc(33.1% - 2rem);
+  }
+}
+@media screen and (max-width: 323px)
+{
+  .cell > p{
+  color: white;
+  font-size: 1.5em;
+}
+  .con1 .title >h1{
+  font-size: 2.5em;
+  color: white;
+}
+.con2 .content1 > p{
+  font-size: 1.5em;
+  color: #f1c40f;
+
+}
+
+}

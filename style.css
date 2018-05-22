@@ -1,0 +1,119 @@
+:root{
+  font-size: 10px;
+ font-family: 'Oswald', sans-serif;
+}
+body {
+ margin: 0;
+ padding: 0;
+}
+
+a {
+  color: white; text-decoration: none; 
+}
+a:hover{
+  color:#c44569;
+}
+
+.arrow {
+  text-align: center;
+  margin: 20% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.con{
+  background: #1c1c28;
+}
+.con .banner > p{
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+}
+.con .banner > h1{
+  text-align: center;
+  color: #f1c40f;
+  font-size: 2.5em;
+}
+.con .banner > img{
+  border: 2px solid black;
+  border-radius: 15em;
+  height: 18em;
+  width: 18em;
+
+}
+.con1{
+  background:#222233;
+}
+.con2{
+background: #1c1c28;
+}
+.con3{
+  background:#222233;
+}
+.con3 .link .contact1 > h1{
+   font-size: 2.5em;
+   color: white;
+}
+.con3 .link .contact1 > a{
+  font-size: 1.5em;
+  color:#f1c40f;
+}
+.con3 .link .contact2 > h1{
+   font-size: 2.5em;
+   color: white;
+}
+.con3 .link .contact2 > a{
+  font-size: 1.5em;
+  color:#f1c40f;
+}
+.con2 .heading1 > h1{
+  font-size: 2.5em;
+  color:white;
+}
+.con2 .content1 > p{
+  font-size: 2em;
+  color: #f1c40f;
+  text-align: center;
+
+}
+.container .con{
+  margin: 0;
+  padding: 0;
+
+}
+.grid .cell{
+  border: 1px solid black;
+}
+.cell {
+  margin: 1rem;
+  background-color: #1c1c28;
+}
+.cell > i{
+  font-size: 7em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cell > p{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+.con1 .title >h1{
+  font-size: 3.5em;
+  color: white;
+}
