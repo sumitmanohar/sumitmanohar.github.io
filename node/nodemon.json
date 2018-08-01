@@ -1,0 +1,6 @@
+{
+    "env": {
+        "hi":"gu",
+        "MONGO_ATLAS_PWD": "sumit123"
+    }
+}
